@@ -1,0 +1,36 @@
+*{
+    font-family: Helvetica;
+}
+
+body{
+    background-image: url(wp5751131.jpg);
+}
+
+.header{
+    color: darkorange;
+    text-align: center;
+    font-size: 40px;
+    border: 5px solid black;
+    height: 150px;
+    width: 600px;
+    position: relative;
+    left: 650px;
+}
+
+#title{
+    position: relative;
+    bottom: 20px;
+}
+.basics{
+    color: darkorange;
+    font-weight: bold;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    position: relative;
+    left: 50px;
+}

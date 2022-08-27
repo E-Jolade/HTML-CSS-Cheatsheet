@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>The HTML/CSS CHEATSHEET</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <h3 id="title">Welcome to the HTML/CSS Cheatsheet</h3>
+        </div>
+        <!--Put Information on Basic HTML syntax, setup of an empty page, and basic info for CSS and how to link them. Tags should include
+        stuff like img, link, title, head, body, div, nav, class, id, etc.-->
+        <div class="basics">
+            <p>Begin every HTML document with &lt;html&gt;</p>
+            <p>The &lt;head&gt; tag is for information about the webpage such as what the title of that tab will be called 
+                and where you link things like css stylesheets.</p>
+            <p>The &lt;link&gt; tag has no closing tag and has 3 parts to it: 
+                <ul>
+                    <li>href, which is the name of the css file being linked,</li>
+                    <li>type, the type of file being linked (which is usually css so text/css is what would be filled in),</li>
+                    <li>and rel which defines the purpose of the file, which is usually just stylesheet.</li>
+                </ul> 
+            </p>
+            <p>The &lt;body&gt; tag is where all of the actual HTML that will show up on the page goes</p>
+        </div>
+        <div class="imporant">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">HTML Tag/CSS Selector</th>
+                        <th scope="col">Tag Format</th>
+                        <th scope="col">Tag Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Image</td>
+                        <td>&lt;img&gt;</td>
+                        <td>Self closing tag that links an image to the html document. src inside tag should be name of image, alt provides text
+                            if browser can't load image. Can set width and height within tag as well. </td>
+                    </tr>
+                    <tr>
+                        <td>Title</td>
+                        <td>&lt;title&gt;</td>
+                        <td>Sets name of website tab to whatever is within the Tags</td>
+                    </tr>
+                    <tr>
+                        <td>Div</td>
+                        <td>&lt;div&gt;</td>
+                        <td>Allows you to divide HTML code into sections. Can assign those sections with class properties to allow stylization to 
+                            specific aspects of your page.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nav</td>
+                        <td>&lt;nav&gt;, &lt;a&gt;</td>
+                        <td>Contains set of links to allow users to navigate your page quicker by jumping to specific sections.</td>
+                    </tr>
+                    <tr>
+                        <td>Font Family</td>
+                        <td>font-family</td>
+                        <td>Sets desired scope to selected font.</td>
+                    </tr>
+                    <tr>
+                        <td>Classes</td>
+                        <td>.(insert class name)</td>
+                        <td>Similar to div but for CSS, allows for specific stylization of specific aspects of HTML doc by 
+                            assigning a class</td>
+                    </tr>
+                    <tr>
+                        <td>Background Image</td>
+                        <td>background-image: url(name of image file);</td>
+                        <td>Sets background of specified section to whatever image was selected.</td>
+                    </tr>
+                    <tr>
+                        <td>Font Size</td>
+                        <td>font-size</td>
+                        <td>Sets size of text in specified section to desired number (ex: 20px).</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </body>
+</html>
